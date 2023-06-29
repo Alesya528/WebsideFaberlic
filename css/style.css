@@ -44,10 +44,11 @@ table {
 }
 
 input {
-  -webkit-appearance: none;
   border-radius: 0;
 }
 
+/* 
 h1 {
-  font-family: "Ysabeau Office", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+ font-family: $font-main;
+
+} *//*# sourceMappingURL=style.css.map */
