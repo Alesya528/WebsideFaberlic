@@ -2,13 +2,16 @@
 @import './_base/reset';
 @import './_base/vars';
 
+@import './_blocks/header';
 
-/* 
-h1 {
- font-family: $font-main;
 
-} */
 
-body {
-    color: red;
+
+
+
+.logo{
+    img{
+        max-width: 90px;
+        max-height: auto;
+    }
 }
