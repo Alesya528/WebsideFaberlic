@@ -11,6 +11,14 @@ body {
 .container {
     max-width: 1616px;
     margin: 0 auto;
+    padding: 0 15px; // так как указали ширинут, то там будут лишние падинги, то  мы их уменьшам
 
 
+}
+
+.logo{
+    img{
+        max-width: 80px;
+        max-height: auto;
+    }
 }

@@ -10,5 +10,43 @@ header{
 .upNovigation{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
+}
+
+.menu {
+    flex-basis: 40%;
+    display: inline-flex;
+    a{
+        justify-content: space-between;
+        color: $myblack;
+    }
+    ul {
+    display: flex;
+       width: 100%;
+      
+       display: inline-flex;
+        li {
+            justify-content: space-between;
+
+            a {
+                color: $myblack;
+
+
+            }
+        }
+    }
+}
+
+.logBtn{
+    border-radius: 5px;
+    background-color: $myblack;
+    button{
+        padding: 10px;
+        display: inline-block;
+        color: white;
+        
+    }
+    
+    
 }
