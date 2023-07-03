@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body {
     color: black;
-    font-family: 'Ysabeau Office', sans-serif;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Ysabeau Office', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 
 }
 
 .container {
-    max-width: 1616px;
+    max-width: 1630px;
     margin: 0 auto;
     padding: 0 15px; // так как указали ширинут, то там будут лишние падинги, то  мы их уменьшам
 
@@ -21,4 +23,15 @@ body {
         max-width: 80px;
         max-height: auto;
     }
+}
+
+a, a:link, a:visited{
+    color: black;
+      
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
 }

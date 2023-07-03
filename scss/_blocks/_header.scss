@@ -7,46 +7,105 @@ header{
    
 }
 
-.upNovigation{
+.header__top-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 128px;
+    padding-bottom: 20px;
+}
+
+.header__logo{
+    img{
+        width: 50px;
+        height: auto;
+    }
+}
+
+.header__menu {
+    @media (max-width: 830px) {
+        flex-basis: 60%; 
+    }
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top_btn{
+   
+    background-color: $myblack;
 
 }
 
-.menu {
-    flex-basis: 40%;
-    display: inline-flex;
-    a{
-        justify-content: space-between;
-        color: $myblack;
-    }
-    ul {
+
+.header__title{
+    margin-top: 80px;
+}
+.header__title-aboutMe{
     display: flex;
-       width: 100%;
-      
-       display: inline-flex;
-        li {
-            justify-content: space-between;
-
-            a {
-                color: $myblack;
+   
+    width: 1400px;
+    height: 830px;
+    margin: 0 auto;
 
 
+    .header__title-text{
+        flex-basis: 50%;
+        padding-left: 40px;
+        .acquaintance{
+            line-height: 40px;
+            font-weight: 600;
+            span{
+               color: $accent;
             }
+        }
+        .major{
+            font-family: $font_second;
+            font-weight: 800;
+            line-height: 75px;  
+            font-size: 60px;
+            position: relative;
+           
+            img{
+                position: absolute; 
+                bottom: 25px;
+                
+            }
+        }
+        .summer{
+            padding-top: 12px;
+            
+            width: 476px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .icon-row{
+            display: flex;
+            padding-top: 35px;
+            width: 190px;
+            justify-content: space-between;
+        }
+        .header__title-btn{
+            margin-top: 35px;
+            background-color: $accent;
+            display:inline-flex;
+        }
+
+    }
+    
+    .header__title-img{
+       // background:url('src/header/Group 1.png') 100% 100%/ auto 100% no-repeat;
+        flex-basis: 50%;
+        img{
+            position: relative;
+            
+            left: 25%;
+            height: 700px;
+            width: auto;
+          
+            
         }
     }
 }
 
-.logBtn{
-    border-radius: 5px;
-    background-color: $myblack;
-    button{
-        padding: 10px;
-        display: inline-block;
-        color: white;
-        
-    }
-    
-    
-}
