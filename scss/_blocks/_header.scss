@@ -1,8 +1,8 @@
 header{
     
-    min-height: 1130px;
+    min-height: 1000px;
     max-width: auto;
-    background:  url('/src/header/accaro.jpg') 0 0/100% auto no-repeat;
+    background:  url('/src/1 header/accaro.jpg') 0 0/100% auto no-repeat;
 
    
 }
@@ -29,13 +29,30 @@ header{
     flex-basis: 40%;
     display: flex;
     justify-content: space-between;
+    a:hover{    
+        transition: all 0.5s ease-in-out;
+        color: $accent;
+    }
+    .menu-item_active{
+        position: relative;
+        color: $accent;
+    }
+    .menu-item_active:after{
+        position: absolute;
+        content: "";
+        height: 2px;
+        background-color: $accent;
+        width: 100%;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+    }
 }
 
 
 .header__title{
-    margin-top: 80px;
-
-    background: url('/src/header/lineDetail.svg') 40% 70% no-repeat;
+    margin-top: 50px;
+    background: url('/src/1 header/lineDetail.svg') 40% 70% no-repeat;
 }
 .header__title-aboutMe{
     display: flex;
