@@ -31,15 +31,11 @@ header{
     justify-content: space-between;
 }
 
-.header__top_btn{
-   
-    background-color: $myblack;
-
-}
-
 
 .header__title{
     margin-top: 80px;
+
+    background: url('/src/header/lineDetail.svg') 40% 70% no-repeat;
 }
 .header__title-aboutMe{
     display: flex;
@@ -86,10 +82,13 @@ header{
             width: 190px;
             justify-content: space-between;
         }
+
+
+
         .header__title-btn{
             margin-top: 35px;
-            background-color: $accent;
             display:inline-flex;
+            box-shadow: 0px 24px 48px 6px rgba(253, 89, 86, 0.08), 0px 12px 24px 6px rgba(253, 89, 86, 0.08);
         }
 
     }

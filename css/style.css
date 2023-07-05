@@ -1,1 +1,214 @@
-@import"https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap";@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap";body{color:#000;font-family:"Montserrat",sans-serif;font-size:18px;font-weight:600}.container{max-width:1630px;margin:0 auto;padding:0 15px}.logo img{max-width:80px;max-height:auto}a,a:link,a:visited{color:#000}.btn{border-radius:5px;padding:10px;color:#fff}*{padding:0px;margin:0px;border:none}*,*::before,*::after{box-sizing:border-box}a,a:link,a:visited{text-decoration:none}a:hover{text-decoration:none}aside,nav,footer,header,section,main{display:block}h1,h2,h3,h4,h5,h6,p{font-size:inherit;font-weight:inherit}ul,ul li{list-style:none}img{vertical-align:top}img,svg{max-width:100%;height:auto}address{font-style:normal}input,textarea,button,select{font-family:inherit;font-size:inherit;color:inherit;background-color:rgba(0,0,0,0)}input::-ms-clear{display:none}button,input[type=submit]{display:inline-block;box-shadow:none;background-color:rgba(0,0,0,0);background:none;cursor:pointer}input:focus,input:active,button:focus,button:active{outline:none}button::-moz-focus-inner{padding:0;border:0}label{cursor:pointer}legend{display:block}header{min-height:1130px;max-width:auto;background:url("/src/header/accaro.jpg") 0 0/100% auto no-repeat}.header__top-row{display:flex;justify-content:space-between;align-items:center;height:128px;padding-bottom:20px}.header__logo img{width:50px;height:auto}.header__menu{flex-basis:40%;display:flex;justify-content:space-between}@media(max-width: 830px){.header__menu{flex-basis:60%}}.header__top_btn{background-color:#000}.header__title{margin-top:80px}.header__title-aboutMe{display:flex;width:1400px;height:830px;margin:0 auto}.header__title-aboutMe .header__title-text{flex-basis:50%;padding-left:40px}.header__title-aboutMe .header__title-text .acquaintance{line-height:40px;font-weight:600}.header__title-aboutMe .header__title-text .acquaintance span{color:#fd5956}.header__title-aboutMe .header__title-text .major{font-family:"Montserrat",sans-serif;font-weight:800;line-height:75px;font-size:60px;position:relative}.header__title-aboutMe .header__title-text .major img{position:absolute;bottom:25px}.header__title-aboutMe .header__title-text .summer{padding-top:12px;width:476px;font-style:normal;font-weight:400;font-size:20px}.header__title-aboutMe .header__title-text .icon-row{display:flex;padding-top:35px;width:190px;justify-content:space-between}.header__title-aboutMe .header__title-text .header__title-btn{margin-top:35px;background-color:#fd5956;display:inline-flex}.header__title-aboutMe .header__title-img{flex-basis:50%}.header__title-aboutMe .header__title-img img{position:relative;left:25%;height:700px;width:auto}
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo img {
+  max-width: 80px;
+  max-height: auto;
+}
+
+a, a:link, a:visited {
+  color: black;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.btn_red {
+  background-color: #FD5956;
+}
+
+.btn_black {
+  background-color: #000;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+header {
+  min-height: 1130px;
+  max-width: auto;
+  background: url("/src/header/accaro.jpg") 0 0/100% auto no-repeat;
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 128px;
+  padding-bottom: 20px;
+}
+
+.header__logo img {
+  width: 50px;
+  height: auto;
+}
+
+.header__menu {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 830px) {
+  .header__menu {
+    flex-basis: 60%;
+  }
+}
+
+.header__title {
+  margin-top: 80px;
+  background: url("/src/header/lineDetail.svg") 40% 70% no-repeat;
+}
+
+.header__title-aboutMe {
+  display: flex;
+  width: 1400px;
+  height: 830px;
+  margin: 0 auto;
+}
+.header__title-aboutMe .header__title-text {
+  flex-basis: 50%;
+  padding-left: 40px;
+}
+.header__title-aboutMe .header__title-text .acquaintance {
+  line-height: 40px;
+  font-weight: 600;
+}
+.header__title-aboutMe .header__title-text .acquaintance span {
+  color: #FD5956;
+}
+.header__title-aboutMe .header__title-text .major {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 75px;
+  font-size: 60px;
+  position: relative;
+}
+.header__title-aboutMe .header__title-text .major img {
+  position: absolute;
+  bottom: 25px;
+}
+.header__title-aboutMe .header__title-text .summer {
+  padding-top: 12px;
+  width: 476px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header__title-aboutMe .header__title-text .icon-row {
+  display: flex;
+  padding-top: 35px;
+  width: 190px;
+  justify-content: space-between;
+}
+.header__title-aboutMe .header__title-text .header__title-btn {
+  margin-top: 35px;
+  display: inline-flex;
+  box-shadow: 0px 24px 48px 6px rgba(253, 89, 86, 0.08), 0px 12px 24px 6px rgba(253, 89, 86, 0.08);
+}
+.header__title-aboutMe .header__title-img {
+  flex-basis: 50%;
+}
+.header__title-aboutMe .header__title-img img {
+  position: relative;
+  left: 25%;
+  height: 700px;
+  width: auto;
+}
