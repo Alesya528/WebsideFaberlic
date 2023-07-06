@@ -1,14 +1,17 @@
+
 .header__title{
-    margin-top: 50px;
-    background: url('/src/1 header/lineDetail.svg') 40% 70% no-repeat;
-}
+    background:  url('/src/2 titleMain/accaro.jpg') 0 0/100% 100% no-repeat;
+    margin: 50px 0 50px 0;
+} 
+
+
 .header__title-aboutMe{
     display: flex;
    
-    width: 1400px;
-    height: 830px;
+    max-width: 1400px;
+  
     margin: 0 auto;
-
+   
 
     .header__title-text{
         flex-basis: 50%;
@@ -44,8 +47,7 @@
         .icon-row{
             display: flex;
             padding-top: 35px;
-            width: 190px;
-            justify-content: space-between;
+          
         }
 
 

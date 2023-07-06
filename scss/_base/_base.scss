@@ -18,9 +18,7 @@ body {
     margin: 0 auto;
     padding: 0 15px; // так как указали ширинут, то там будут лишние падинги, то  мы их уменьшам
 }
-section{
-    margin: 50px 0 0 0;
-}
+
 
 .logo{
     img{
@@ -88,4 +86,11 @@ h1{
         margin: 25px 0 0 0 ;
         line-height: 27px;
     }
+}
+
+.icon{
+    
+    padding-top: 35px;
+    width: 190px;
+    justify-content: space-between;
 }

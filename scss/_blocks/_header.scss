@@ -1,15 +1,12 @@
-.header__title{
-    min-height: 1000px;
-    max-width: auto;
-    background:  url('/src/1\ header/') 0 0/100% auto no-repeat;
+header {
+    background:  url('src/2 titleMain/accaro.jpg') 0 0/auto 100% no-repeat;
 }
-
 .header__top-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 128px;
-    padding-bottom: 20px;
+    
 }
 
 .header__logo{
