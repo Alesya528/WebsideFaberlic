@@ -9,13 +9,17 @@ body {
     font-weight: 600;
 
 }
+.none{
+    display: none !important;
+}
 
 .container {
     max-width: 1630px;
     margin: 0 auto;
     padding: 0 15px; // так как указали ширинут, то там будут лишние падинги, то  мы их уменьшам
-
-
+}
+section{
+    margin: 50px 0 0 0;
 }
 
 .logo{
@@ -73,5 +77,15 @@ h1{
         color: $accent;
       
         font-size: 80px;
+    }
+}
+
+.description{
+    margin: 0 auto;
+    max-width: 875px;
+    text-align: center;
+    p {
+        margin: 25px 0 0 0 ;
+        line-height: 27px;
     }
 }
