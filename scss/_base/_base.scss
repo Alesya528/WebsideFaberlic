@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Prata & display=swap'); // logo
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); // logo
 @import './vars';
 body {
     color: black;
@@ -27,15 +29,15 @@ body {
     }
 }
 
-a, a:link, a:visited{
-    color: black;
-      
+.btn, .btn::visited, .btn::link{
+    color: $white;
 }
 
 .btn{
     border-radius: 5px;
     padding: 10px;
     color: white;
+    font-weight: 600;
 }
 
 .btn_red{
@@ -54,6 +56,7 @@ a, a:link, a:visited{
 
 .btn_black{
     background-color: $myblack;
+    color: $white;
 }
 
 
@@ -89,8 +92,34 @@ h1{
 }
 
 .icon{
-    
-    padding-top: 35px;
     width: 190px;
     justify-content: space-between;
+}
+
+.logo{
+    img{
+        width: 50px;
+        height: auto;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    .logo-and {
+        color: $accent;
+        color: #E70E53;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .logo-name {
+        font-family: 'Prata', serif;
+        font-size: 40px ;
+        font-weight: 400;
+    }
+
+   
 }

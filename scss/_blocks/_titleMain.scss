@@ -1,76 +1,102 @@
 
 .header__title{
-    background:  url('/src/2 titleMain/accaro.jpg') 0 0/100% 100% no-repeat;
-    margin: 50px 0 50px 0;
+   //@function background:  url('/src/2 titleMain/accaro.jpg') 0 0/100% 100% no-repeat;
+    padding: 50px 0 50px 0;
+  
+    &::before{
+        content: " ";
+        
+        position: absolute;
+        width: 50%;
+        height:50%;
+        bottom: 0;
 } 
 
 
-.header__title-aboutMe{
+.header__title-aboutMe {
     display: flex;
-   
     max-width: 1400px;
-  
     margin: 0 auto;
-   
 
-    .header__title-text{
+
+    .header__title-text {
         flex-basis: 50%;
         padding-left: 40px;
-        .acquaintance{
+
+        .acquaintance {
             line-height: 40px;
             font-weight: 600;
-            span{
-               color: $accent;
+
+            span {
+                color: $accent;
             }
         }
-        .major{
+
+        .major {
             font-family: $font_second;
             font-weight: 800;
-            line-height: 75px;  
+            line-height: 75px;
             font-size: 60px;
             position: relative;
-           
-            img{
-                position: absolute; 
+
+            img {
+                position: absolute;
                 bottom: 25px;
-                
+
             }
         }
-        .summer{
+
+        .summer {
             padding-top: 12px;
-            
+
             width: 476px;
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
         }
-        .icon-row{
+
+        .icon-row {
             display: flex;
             padding-top: 35px;
-          
+
         }
 
 
 
-        .header__title-btn{
+        .header__title-btn {
             margin-top: 35px;
-            display:inline-flex;
+            display: inline-flex;
             box-shadow: 0px 24px 48px 6px rgba(253, 89, 86, 0.08), 0px 12px 24px 6px rgba(253, 89, 86, 0.08);
         }
 
     }
-    
-    .header__title-img{
-       // background:url('src/header/Group 1.png') 100% 100%/ auto 100% no-repeat;
-        flex-basis: 50%;
-       
-        img{
+
+    .header__title-img {
+        // background:url('src/header/Group 1.png') 100% 100%/ auto 100% no-repeat; flex-basis: 50%;
+        position: relative;
+        display: block;
+
+        &::before {
+            content: " ";
+            z-index: 10;
+            position: absolute;
+            width: 539px;
+            height: 566.5px;
+            left: 25%;
+            bottom: 0;
+            background: linear-gradient(4deg, #FFFEFD 5.62%, rgba(255, 255, 255, 0.90) 19.27%, rgba(255, 255, 255, 0.87) 30.21%, rgba(255, 255, 255, 0.76) 44.27%, rgba(255, 255, 255, 0.35) 60.42%, rgba(255, 255, 255, 0.00) 80.21%);
+
+
+        }
+
+        img {
             position: relative;
             left: 25%;
             height: 700px;
-            width: auto;            
+            width: auto;
         }
     }
-   
+
+}
 }
 

@@ -1,22 +1,26 @@
 header {
-    background:  url('src/2 titleMain/accaro.jpg') 0 0/auto 100% no-repeat;
+    z-index: 1;
+    
 }
 .header__top-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 128px;
+    align-items: center;
     
 }
 
 .header__logo{
-    img{
-        width: 50px;
-        height: auto;
-    }
+ 
+
 }
 
 .header__menu {
+    a, a:link, a:visited{
+        color: black;
+          
+    }
     @media (max-width: 830px) {
         flex-basis: 60%; 
     }
@@ -42,5 +46,4 @@ header {
         right: 0;
     }
 }
-
 
