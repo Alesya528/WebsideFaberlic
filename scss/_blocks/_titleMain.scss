@@ -3,13 +3,13 @@
    //@function background:  url('/src/2 titleMain/accaro.jpg') 0 0/100% 100% no-repeat;
     padding: 50px 0 50px 0;
   
-    &::before{
-        content: " ";
+    // &::before{
+    //     content: " ";
         
-        position: absolute;
-        width: 50%;
-        height:50%;
-        bottom: 0;
+    //     position: absolute;
+    //     width: 50%;
+    //     height:50%;
+    //     bottom: 0;
 } 
 
 
@@ -76,18 +76,18 @@
         position: relative;
         display: block;
 
-        &::before {
-            content: " ";
-            z-index: 10;
-            position: absolute;
-            width: 539px;
-            height: 566.5px;
-            left: 25%;
-            bottom: 0;
-            background: linear-gradient(4deg, #FFFEFD 5.62%, rgba(255, 255, 255, 0.90) 19.27%, rgba(255, 255, 255, 0.87) 30.21%, rgba(255, 255, 255, 0.76) 44.27%, rgba(255, 255, 255, 0.35) 60.42%, rgba(255, 255, 255, 0.00) 80.21%);
+        // &::before {
+        //     content: " ";
+        //     z-index: 10;
+        //     position: absolute;
+        //     width: 539px;
+        //     height: 566.5px;
+        //     left: 25%;
+        //     bottom: 0;
+        //     background: linear-gradient(4deg, #FFFEFD 5.62%, rgba(255, 255, 255, 0.90) 19.27%, rgba(255, 255, 255, 0.87) 30.21%, rgba(255, 255, 255, 0.76) 44.27%, rgba(255, 255, 255, 0.35) 60.42%, rgba(255, 255, 255, 0.00) 80.21%);
 
 
-        }
+        // }
 
         img {
             position: relative;
@@ -98,5 +98,5 @@
     }
 
 }
-}
+
 
