@@ -1,20 +1,6 @@
 
 .header__title{
-   
-    padding: 50px 0 50px 0;
-    position: relative;
-    overflow: visible;
-    &::before{
-        content: "";
-        background: url('/src/2 titleMain/accaro.jpg') 50% no-repeat;
-        z-index: 10;
-        position: absolute;
-      width: 100%;
-      height: 100%;
-        object-fit: cover;
-        top: 0;
-        left: 0;
-       
+    padding: 50px 0px;
 } 
 
 
@@ -22,12 +8,28 @@
     position: relative;
     z-index: 20;
     display: flex;
-    max-width: 1400px;
+    max-width: 1435px;
     margin: 0 auto;
+    justify-content: space-between;
+
+    &::after{
+        content: "";
+        background-image: url('/src/2 titleMain/lineDetail.svg') ;
+        z-index: 10;
+        position: absolute;
+        width: 752/1435 * 100%;  
+        height: 410/828 * 100%;
+        left: 115/1435 * 100%;
+        bottom: 110/828 * 100%;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
   
     .header__title-text {
-        flex-basis: 50%;
-        padding-left: 40px;
+        position: relative;
+        z-index: 20;
+   
+       
 
         .acquaintance {
             line-height: 40px;
@@ -78,32 +80,17 @@
     }
 
     .header__title-img {
-        // background:url('src/header/Group 1.png') 100% 100%/ auto 100% no-repeat; flex-basis: 50%;
+       
         position: relative;
         display: block;
-
-        // &::before {
-        //     content: " ";
-        //     z-index: 10;
-        //     position: absolute;
-        //     width: 539px;
-        //     height: 566.5px;
-        //     left: 25%;
-        //     bottom: 0;
-        //     background: linear-gradient(4deg, #FFFEFD 5.62%, rgba(255, 255, 255, 0.90) 19.27%, rgba(255, 255, 255, 0.87) 30.21%, rgba(255, 255, 255, 0.76) 44.27%, rgba(255, 255, 255, 0.35) 60.42%, rgba(255, 255, 255, 0.00) 80.21%);
-
-
-        // }
-
+        
         img {
             position: relative;
-            left: 25%;
-            height: 700px;
+            
+            height: 828px;
             width: auto;
         }
     }
 
 }
 
-
-}
