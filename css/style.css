@@ -1,1 +1,428 @@
-@import"https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap";@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap";@import"https://fonts.googleapis.com/css2? family= Prata & display=swap";@import"https://fonts.googleapis.com/css2?family=Poppins&display=swap";body{color:#000;font-family:"Montserrat",sans-serif;font-size:18px;font-weight:600}.none{display:none !important}.container{max-width:1630px;margin:0 auto;padding:0 15px}.logo img{max-width:80px;max-height:auto}.btn,.btn::visited,.btn::link{color:#fffefd}.btn{border-radius:5px;padding:10px;color:#fff;font-weight:600}.btn_red{background-color:#fd5956}.btn_red:hover{background:rgba(0,0,0,0);color:#fd5956;box-shadow:inset 0 0 0 3px #fd5956;border:1px solid #fd5956;transition:all .5s ease-in-out}.btn_black{background-color:#000;color:#fffefd}.btn_black:hover{background:rgba(0,0,0,0);color:#000;box-shadow:inset 0 0 0 1px #000;border:.5px solid #000;transition:all .5s ease-in-out}h1{text-transform:uppercase;font-weight:600;line-height:45px;font-size:45px}h1 span{color:#fd5956;font-size:80px}.description{margin:0 auto;max-width:875px;text-align:center}.description p{margin:25px 0 0 0;line-height:27px}.icon{width:190px;justify-content:space-between}.logo{display:flex;justify-content:center;align-items:center;gap:5px}.logo img{width:50px;height:auto}.logo .logo-and{color:#fd5956;color:#e70e53;font-family:Poppins;font-size:20px;font-weight:400;font-family:"Poppins",sans-serif}.logo .logo-name{font-family:"Prata",serif;font-size:40px;font-weight:400}*{padding:0px;margin:0px;border:none}*,*::before,*::after{box-sizing:border-box}a,a:link,a:visited{text-decoration:none}a:hover{text-decoration:none}aside,nav,footer,header,section,main{display:block}h2,h3,h4,h5,h6,p{font-size:inherit;font-weight:inherit}ul,ul li{list-style:none}img{vertical-align:top}img,svg{max-width:100%;height:auto}address{font-style:normal}input,textarea,button,select{font-family:inherit;font-size:inherit;color:inherit;background-color:rgba(0,0,0,0)}input::-ms-clear{display:none}button,input[type=submit]{display:inline-block;box-shadow:none;background-color:rgba(0,0,0,0);background:none;cursor:pointer}input:focus,input:active,button:focus,button:active{outline:none}button::-moz-focus-inner{padding:0;border:0}label{cursor:pointer}legend{display:block}header{z-index:1}.header__top-row{display:flex;justify-content:space-between;align-items:center;height:128px;align-items:center}.header__menu{flex-basis:40%;display:flex;justify-content:space-between}.header__menu a,.header__menu a:link,.header__menu a:visited{color:#000}@media(max-width: 830px){.header__menu{flex-basis:60%}}.header__menu a:hover{transition:all .5s ease-in-out;color:#fd5956}.header__menu .menu-item_active{position:relative;color:#fd5956}.header__menu .menu-item_active:after{position:absolute;content:"";height:2px;background-color:#fd5956;width:100%;bottom:-5px;left:0;right:0}.header__title{padding:50px 0 50px 0}.header__title-aboutMe{display:flex;max-width:1400px;margin:0 auto}.header__title-aboutMe .header__title-text{flex-basis:50%;padding-left:40px}.header__title-aboutMe .header__title-text .acquaintance{line-height:40px;font-weight:600}.header__title-aboutMe .header__title-text .acquaintance span{color:#fd5956}.header__title-aboutMe .header__title-text .major{font-family:"Montserrat",sans-serif;font-weight:800;line-height:75px;font-size:60px;position:relative}.header__title-aboutMe .header__title-text .major img{position:absolute;bottom:25px}.header__title-aboutMe .header__title-text .summer{padding-top:12px;width:476px;font-style:normal;font-weight:400;font-size:20px}.header__title-aboutMe .header__title-text .icon-row{display:flex;padding-top:35px}.header__title-aboutMe .header__title-text .header__title-btn{margin-top:35px;display:inline-flex;box-shadow:0px 24px 48px 6px rgba(253,89,86,.08),0px 12px 24px 6px rgba(253,89,86,.08)}.header__title-aboutMe .header__title-img{position:relative;display:block}.header__title-aboutMe .header__title-img img{position:relative;left:25%;height:700px;width:auto}.section-acquaintance{margin:50px 0 100px}.acquaintance__img{margin:114px 0 300px 0;text-align:center}.acquaintance__img img{display:inline-block}.section-stock{margin:100px 0}.stock-catalog{margin:140px 0 0 0;padding:10px}.stock-catalog__row{display:grid;grid-template:repeat(2, 1fr)/repeat(2, 1fr);gap:40px}.catalog-item{box-shadow:0px 20px 50px 0px rgba(0,0,0,.1);display:flex;flex-direction:column;margin:0 10px;padding:30px;gap:10px}.catalog-item__img{flex:1 0 auto}.catalog-item__body{display:flex;flex-direction:column;flex:1 1 auto}.catalog-item__price{font-size:32px;font-style:normal;font-weight:600;line-height:48px}.catalog-item__description{flex:1 1 auto;font-style:normal;font-weight:400;font-size:20px}.footer{margin:50px 0}.footer-info{text-align:center}.footer-info__logo{margin:0 0 50px}.footer-info__icon{display:inline-flex;margin:0 0 50px}
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Prata & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.none {
+  display: none !important;
+}
+
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo img {
+  max-width: 80px;
+  max-height: auto;
+}
+
+.btn, .btn::visited, .btn::link {
+  color: #FFFEFD;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn_red {
+  background-color: #FD5956;
+  border: 1px solid #FD5956;
+}
+
+.btn_red:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #FD5956;
+  box-shadow: inset 0 0 0 3px #FD5956;
+  border: 1px solid #FD5956;
+}
+
+.btn_black {
+  background-color: #000;
+  color: #FFFEFD;
+  border: 1px solid #000;
+}
+
+.btn_black:hover {
+  background: #FFFEFD;
+  color: #000;
+  box-shadow: inset 0 0 0 2px #000;
+  border: 1px solid #000;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 45px;
+  font-size: 45px;
+}
+h1 span {
+  color: #FD5956;
+  font-size: 80px;
+}
+
+.description {
+  margin: 0 auto;
+  max-width: 875px;
+  text-align: center;
+}
+.description p {
+  margin: 25px 0 0 0;
+  line-height: 27px;
+}
+
+.icon {
+  width: 190px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.logo img {
+  width: 50px;
+  height: auto;
+}
+.logo .logo-and {
+  color: #FD5956;
+  color: #E70E53;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.logo .logo-name {
+  font-family: "Prata", serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+header {
+  z-index: 1;
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 128px;
+  align-items: center;
+}
+
+.header__menu {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu a, .header__menu a:link, .header__menu a:visited {
+  color: black;
+}
+@media (max-width: 830px) {
+  .header__menu {
+    flex-basis: 60%;
+  }
+}
+.header__menu a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #FD5956;
+}
+.header__menu .menu-item_active {
+  position: relative;
+  color: #FD5956;
+}
+.header__menu .menu-item_active:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #FD5956;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+}
+
+.header__title {
+  padding: 50px 0 50px 0;
+  position: relative;
+  overflow: visible;
+}
+.header__title::before {
+  content: "";
+  background: url("/src/2 titleMain/accaro.jpg") 50% no-repeat;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+}
+.header__title .header__title-aboutMe {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header__title .header__title-aboutMe .header__title-text {
+  flex-basis: 50%;
+  padding-left: 40px;
+}
+.header__title .header__title-aboutMe .header__title-text .acquaintance {
+  line-height: 40px;
+  font-weight: 600;
+}
+.header__title .header__title-aboutMe .header__title-text .acquaintance span {
+  color: #FD5956;
+}
+.header__title .header__title-aboutMe .header__title-text .major {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 75px;
+  font-size: 60px;
+  position: relative;
+}
+.header__title .header__title-aboutMe .header__title-text .major img {
+  position: absolute;
+  bottom: 25px;
+}
+.header__title .header__title-aboutMe .header__title-text .summer {
+  padding-top: 12px;
+  width: 476px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header__title .header__title-aboutMe .header__title-text .icon-row {
+  display: flex;
+  padding-top: 35px;
+}
+.header__title .header__title-aboutMe .header__title-text .header__title-btn {
+  margin-top: 35px;
+  display: inline-flex;
+  box-shadow: 0px 24px 48px 6px rgba(253, 89, 86, 0.08), 0px 12px 24px 6px rgba(253, 89, 86, 0.08);
+}
+.header__title .header__title-aboutMe .header__title-img {
+  position: relative;
+  display: block;
+}
+.header__title .header__title-aboutMe .header__title-img img {
+  position: relative;
+  left: 25%;
+  height: 700px;
+  width: auto;
+}
+
+.section-acquaintance {
+  margin: 50px 0 100px;
+}
+
+.acquaintance__img {
+  margin: 114px 0 300px 0;
+  text-align: center;
+}
+.acquaintance__img img {
+  display: inline-block;
+}
+
+.section-stock {
+  margin: 0px 0px;
+}
+
+.stock-description {
+  padding-bottom: 100px;
+}
+
+.stock-catalog {
+  padding-bottom: 100px;
+}
+
+.stock-catalog__row {
+  display: grid;
+  grid-template: repeat(1, 1fr)/repeat(4, 1fr);
+  gap: 20px;
+}
+
+.catalog-item {
+  position: relative;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 15px;
+  gap: 25px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.catalog-item::before {
+  content: " -30%";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #FD5956;
+  top: 30px;
+  right: 30px;
+}
+
+.catalog-item__img img {
+  border-radius: 20px;
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.catalog-item__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 20px;
+}
+
+.catalog-item__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-item__price {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.catalog-item__btn {
+  border-radius: 20px;
+}
+
+.catalog-item__description {
+  flex: 1 1 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.footer {
+  margin: 50px 0;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info__logo {
+  margin: 0 0 50px;
+}
+
+.footer-info__icon {
+  display: inline-flex;
+  margin: 0 0 50px;
+}
